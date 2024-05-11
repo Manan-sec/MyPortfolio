@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(61, 62, 63);
+}
+
+.course1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(113, 115, 117);
+    height: 100%;
+    text-align: center;
+}
+
+.box {
+    width: 40%;
+    height: 360px;
+    margin: 10px;
+    background: rgb(185, 185, 189);
+}
+
+.bio {
+    background-image: url(subject/biology.webp);
+    background-size: cover;
+    height: 280px;
+    margin: 10px;
+}
+
+.course1 a {
+    text-decoration: none;
+    color:  rgb(65, 65, 66);
+    font-weight: 700;
+}
+
+.course1 p {
+    text-decoration: none;
+    color:  rgb(65, 65, 66);
+    font-weight: 700;
+}
+
+.phy {
+    background-image: url(subject/physics.png);
+    background-size: cover;
+    height: 280px;
+    margin: 10px;
+}
+
+.che {
+    background-image: url(subject/chemestry.jpg);
+    background-size: cover;
+    height: 280px;
+    margin: 10px;
+}

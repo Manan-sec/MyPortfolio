@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(61, 62, 63);
+}
+
+
+* {
+    margin: 0;
+    font-family: arial;
+}
+
+.nav-search select {
+    border-bottom-left-radius: 4px;
+    height: 40px;
+    border: 0.2px solid black;
+    border-top-left-radius: 4px;
+}
+
+.input {
+    height: 38px;
+    padding: 0;
+    border: 0.2px solid black;
+    width: 100%;
+}
+
+.nav-search {
+    background-color: rgb(120, 204, 51);
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-logo {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(32, 70, 104);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-search button {
+    background-color: rgb(60, 133, 196);
+}
+
+.nav-account a {
+    color: white;
+    text-decoration: none;
+}
+
+header label {
+    color: white;
+}
+
+/** hero **/
+
+.hero {
+    background-image: url(subject/subject.png);
+    height: 800px;
+    background-size: cover;
+    margin: 10px;
+}
+
+/** main **/
+
+.course {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(59, 60, 61);
+    margin: 10px;
+}
+
+.box {
+    width: 25%;
+    margin: 10px;
+    height: 300px;
+    background-color: rgb(173, 177, 180);
+}
+
+.com {
+    background-size: cover;
+    background-image: url(subject/computer.webp);
+    height: 240px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.course a {
+    text-decoration: none;
+}
+
+.of {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: rgb(65, 66, 66);
+}
+
+.mat {
+    background-size: cover;
+    background-image: url(subject/maths.webp);
+    height: 240px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.sci {
+    background-size: cover;
+    background-image: url(subject/science.jpg);
+    height: 240px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.eng {
+    background-size: cover;
+    background-image: url(subject/english.jpg);
+    height: 240px;
+    padding: 2px;
+    margin: 10px;
+    width: 195;
+}
+
+.hin {
+    background-size: cover;
+    background-image: url(subject/hindi.jpg);
+    height: 240px;
+    padding: 2px;
+    margin: 10px;
+}
